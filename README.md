@@ -5,7 +5,7 @@ This is a work-in-progress implementation of devp2p.
 Design goal follow.
  (1) Clarity and readability, not performance.
  (2) Closely following the specifications. The code includes links to specific parts of the spec which it implements.
- (3) This Python code is for prototyping; some prototypes will be translated to compiled languages like C/C++/Go/Rust, so avoid "Pythonic" conventions, and libraries which are difficult to translate.
+ (3) This Python code is for prototyping; some prototypes will be translated to compiled languages like C/C++/Go/Rust, so avoid "Pythonic" conventions, and avoid libraries which are difficult to translate.
 
 The architecture is as follows.
  - A PeerConnection class is instantiated for each socket connection to an ethereum peer.
