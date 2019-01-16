@@ -21,12 +21,13 @@ The architecture is as follows.
 TODO:
 - [x] initial architecture described above
 - [x] initial code for RLPx
-- [x] initial code for p2p and eth subprotocol
-- [ ] RLPx complete
-- [ ] p2p and eth subprotocols complete
-- [ ] other subprotocols like les, shh, bzz
+- [x] initial code for p2p subprotocol
+- [x] initial code for eth subprotocol
+- [x] initial code for discovery
+- [ ] RLPx
+- [ ] p2p and eth subprotocols
 - [ ] discovery
+- [ ] other subprotocols like les, shh, bzz
 - [ ] reputation for peers
-- [ ] JSON RPC
 
 

@@ -8,6 +8,7 @@ import RLP
 rlp_decode = RLP.RLP
 rlp_encode = RLP.RLP_inv
 import crypto
+import discovery
 
 
 # Parameters
@@ -640,8 +641,8 @@ def main_p2p_loop(shutdown_, debug_, config, shared_data):
       continue
 
   # create thread for handling discovery messages
-  #thread_discovery = threading.Thread( target = discovery_loop )
-  #thread_discovery.start()
+  thread_discovery = threading.Thread( target = discovery.discovery_loop )
+  thread_discovery.start()
 
   # create thread for handling discovery messages
   thread_discovery = threading.Thread( target = heartbeat_loop )
